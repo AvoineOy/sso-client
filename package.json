@@ -1,0 +1,25 @@
+{
+  "name": "@avoine/sso-client",
+  "version": "0.1.1",
+  "description": "Simple Avoine SSO client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Niklas Lampén",
+    "email": "niklas.lampen@avoine.fi"
+  },
+  "contributors": [
+    {
+      "name": "Joonas Oksanen",
+      "email": "joonas.oksanen@avoine.fi"
+    }
+  ],
+  "repository" : {
+    "type": "git",
+    "url": "https://github.com/AvoineOy/sso-client.git"
+  },
+  "license": "MIT"
+}
