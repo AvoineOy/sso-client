@@ -1,10 +1,10 @@
 {
   "name": "@avoine/sso-client",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Simple Avoine SSO client",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": {
@@ -17,9 +17,16 @@
       "email": "joonas.oksanen@avoine.fi"
     }
   ],
-  "repository" : {
+  "repository": {
     "type": "git",
     "url": "https://github.com/AvoineOy/sso-client.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "jest": "^21.2.1"
+  }
 }
