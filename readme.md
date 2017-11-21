@@ -5,7 +5,7 @@
 
 Install Avoine Mobile Components with
 
-`npm install @avoine/sso-client`
+`npm install --save @avoine/sso-client`
 
 
 ## Usage
@@ -14,5 +14,9 @@ Install Avoine Mobile Components with
 ```
 import AvoineSSOClient from '@avoine/sso-client'
 
-const ssoClient = new AvoineSSOClient(url, instanceName)
+const ssoClient = new AvoineSSOClient()
+
+ssoClient.requestCode('https://url.to.sso', 'instance', '0411234567')
+
+ssoClient.validateCode('https://url.to.sso', 'instance', '123456', 'hash')
 ```
