@@ -122,8 +122,7 @@ export default class AvoineSSOClient {
       if (response && response.ok) {
         resolve(response.headers.get('X-Avoine-Token'));
       } else {
-        // response.text().then(reason => reject(reason));
-        reject('Reponse is not ok');
+        reject('Using code failed, no token received');
       }
     });
   }
